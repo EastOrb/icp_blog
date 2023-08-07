@@ -1,0 +1,13 @@
+{
+  "canisters": {
+    "icp_blog": {
+      "main": "src/index.ts",
+      "type": "custom",
+      "build": "npx azle icp_blog",
+      "root": "src",
+      "ts": "src/index.ts",
+      "candid": "src/index.did",
+      "wasm": ".azle/icp_blog/icp_blog.wasm.gz"
+    }
+  }
+}
